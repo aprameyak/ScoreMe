@@ -1,5 +1,1 @@
-# StudentPerformance
-
-Using a kaggle dataset about Student Performance
-The Linear Regression Model utilizes scikit-learn to preidct student performance
-The model scores aproximately 98.8% accuracy
+This utilized a Pandas dataframe to structure a kaggle student exam performance dataset with columns for each data point. Valuable insights were derived using Matplotlib and Seaborn to visualize, analyze, and clean the dataset. A Scikit-Learn linear regression model was developed to predict student exam performance with a 98.8% accuracy.
