@@ -1,3 +1,21 @@
-This utilized a Pandas dataframe to structure a kaggle student exam performance dataset with columns for each data point. Valuable insights were derived using Matplotlib and Seaborn to visualize, analyze, and clean the dataset. A Scikit-Learn linear regression model was developed to predict student exam performance with a 98.8% accuracy. 
+# **ScoreMe - Exam Score Predictor**
 
-Using the created Scikit Learn linear regression model and wrapped it to be used in API requests with Pickle. A Flask Python API handled HTTP POST requests containing information needed to make a prediction on student performance using the model captured by pickle. The React.js front end allows users to enter data values to get a dynamic response from the model to understand what the predicting exam performance index is from 0 to 100 marks.
+ScoreMe is a web application designed to predict student exam scores based on input data. Built using a Kaggle student exam performance dataset, the project leverages data analysis and machine learning techniques to predict exam scores with high accuracy. The application features a Flask API backend, a React.js frontend, and a Scikit-Learn linear regression model, packaged and deployed for real-time predictions.
+
+## Features
+
+- **Data Analysis**: Processed and analyzed a Kaggle student exam performance dataset using Pandas, Matplotlib, and Seaborn to identify patterns in student performance.
+- **Linear Regression Model**: Developed a Scikit-Learn linear regression model to predict student exam scores, achieving 98.8% accuracy.
+- **Model Serialization**: Wrapped the trained linear regression model using Pickle for easy deployment and integration with the backend.
+- **Real-Time Predictions**: Flask API handles HTTP POST requests and provides real-time predictions of student exam performance, ranging from 0 to 100 marks.
+- **Interactive Front-End**: React.js frontend allows users to input data values and view dynamic predictions from the model.
+- **Seamless Integration**: Ensured smooth communication between the decoupled frontend and backend for efficient real-time predictions.
+
+## Technology Stack
+
+- **Frontend**: React.js, JavaScript
+- **Backend**: Flask (Python)
+- **Machine Learning**: Scikit-Learn (Linear Regression)
+- **Data Analysis**: Pandas, Matplotlib, Seaborn
+- **Model Serialization**: Pickle
+
